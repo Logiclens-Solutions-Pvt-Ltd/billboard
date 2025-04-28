@@ -38,7 +38,7 @@ const StatCard = ({ title, value, icon, change, changeType, changeText, footer }
         <div className="pt-4 mt-4 border-t border-gray-100 dark:border-gray-700">
           <p className="text-sm text-gray-500 dark:text-gray-400">{footer}</p>
         </div>
-      )}
+      )} 
     </div>
   );
 };

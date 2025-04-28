@@ -11,6 +11,7 @@ const DataTable = ({
 }) => {
   // This is a simple implementation. In a real project, you'd use a library like react-table
   // or implement proper pagination, sorting, etc.
+  
 
   return (
     <div className={`w-full overflow-hidden ${className}`}>

@@ -18,7 +18,7 @@ const Header = ({ title }) => {
             type="search"
             className="pl-10 pr-2 py-2 text-sm border border-gray-300 dark:border-gray-600 rounded-lg bg-gray-50 dark:bg-gray-700 focus:ring-primary focus:border-primary text-gray-900 dark:text-white"
             placeholder="Search..."
-          />
+          /> 
         </div> */}
 
         <button 

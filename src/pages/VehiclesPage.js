@@ -38,7 +38,6 @@ const VehiclesPage = () => {
   return (
     <DashboardLayout title="Vehicle Detection Analytics">
       <div className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">Vehicle Detection Analysis</h2>
         <p className="text-gray-500 dark:text-gray-400">
           Analytics for all detected vehicles categorized by type
         </p>

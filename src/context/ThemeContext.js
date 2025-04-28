@@ -6,7 +6,7 @@ export const ThemeProvider = ({ children }) => {
   // Check if theme exists in localStorage, otherwise use system preference or default to light
   const [darkMode, setDarkMode] = useState(() => {
     const savedTheme = localStorage.getItem('darkMode');
-    if (savedTheme !== null) {
+    if (savedTheme !== null) { 
       return savedTheme === 'true';
     }
     // Check system preference

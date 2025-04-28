@@ -44,7 +44,7 @@ const Sidebar = () => {
           {!collapsed && (
             <div className="flex items-center gap-2">
               <LayoutDashboardIcon className="text-primary" size={24} />
-              <h1 className="text-lg font-bold">Billboard AI</h1>
+              <h1 className="text-lg font-bold">Logiclens</h1>
             </div>
           )}
           {collapsed && (

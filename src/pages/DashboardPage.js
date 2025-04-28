@@ -9,7 +9,7 @@ import {
   TrendingUpIcon,
   ZapIcon,
   CalendarIcon,
-  SearchIcon,
+  SearchIcon, 
   PercentIcon
 } from 'lucide-react';
 

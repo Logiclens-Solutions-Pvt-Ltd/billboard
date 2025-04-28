@@ -60,7 +60,6 @@ const ViewTimePage = () => {
   return (
     <DashboardLayout title="View Time Analytics">
       <div className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">Billboard View Time Analysis</h2>
         <p className="text-gray-500 dark:text-gray-400">
           Analytics for viewer engagement and time spent looking at billboards
         </p>

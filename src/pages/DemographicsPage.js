@@ -9,7 +9,7 @@ import LineChart from '../components/LineChart';
 import { demographicData } from '../data/mockData';
 
 const DemographicsPage = () => {
-  // Prepare data for pie chart
+  // Prepare data for pie char
   const genderData = [
     { name: 'Male', value: demographicData.genderDistribution.male, percentage: Math.round(demographicData.genderDistribution.male / demographicData.totalPeople * 100) },
     { name: 'Female', value: demographicData.genderDistribution.female, percentage: Math.round(demographicData.genderDistribution.female / demographicData.totalPeople * 100) }
@@ -39,7 +39,6 @@ const DemographicsPage = () => {
   return (
     <DashboardLayout title="Demographics Analytics">
       <div className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">Demographics Analysis</h2>
         <p className="text-gray-500 dark:text-gray-400">
           Analytics for age and gender of viewers looking at billboards
         </p>
